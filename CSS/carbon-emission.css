@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* These are the colors that are going to be used for the project */
+:root{
+    --very-dark-green: #132A13; 
+    --dark-green: #31572C; 
+    --green: #4F772D; 
+    --light-green: #90A955; 
+    --lighter-green: #ECF39E;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* testing if the css is working correctly */
+body{
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+/* The Header section-------- */
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--very-dark-green);
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-links li {
+    margin: 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.nav-links li a:hover {
+    color: var(--lighter-green);
+}
+
+
+
+/* main */
+.main {
+    width: auto;
+    
+    
+}
+
+/* Carbon emissions */
+
+.div1 {
+    padding-bottom: 20px;
+    background-color: #4F772D;
+}
+
+
+img{
+    /* background-image:url("//images.unsplash.com/photo-1611273426858-450d8e3c9fce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyYm9uJTIwZW1pc3Npb25zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60"); */
+    height: 40rem;
+    width: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+
+}
+
+.h1 {
+    position: absolute;
+    font-size: 5.7rem;
+    margin-top: -550px;
+    margin-left: 50px;
+    font-weight: 700;
+    text-shadow: 4px 14px 30px #09431b;
+}
+
+
+.div-inside {
+    margin: 5.4rem;
+    font-size: 25px;
+   
+}
+
+/* types of co2 */
+
+.types-header {
+    background-color: #fff;
+    color: #000;
+    /* margin-left: 50px; */
+    text-align: center;
+    padding: 15px 10px 5px 50px;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: underline #4F772D;
+    /* text-decoration: ; */
+}
+
+
+
+.div2 {
+    display: flex;
+    color: black;
+    background-color: #fff;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.trial2 {
+    float: right;
+    width: 25rem;
+    height: 24rem;
+    background-repeat: no-repeat;
+    padding: 1.5rem 2rem 0.5rem 4.4rem;
+    object-fit: fill;
+    
+}
+
+.div-nature {
+    float: left;
+    padding-left: 3.4rem;
+    width: 47rem;
+}
+
+.button-1 {
+    background-color: var(--very-dark-green);
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: white solid 2px;
+}
+
+.button-1:hover {
+    background-color: var(--white);
+    color: #000;
+}
+
+
+.div3 {
+    background-color: #fff;
+    padding: 40px 40px 100px 50px;
+    font-size: 25px;
+    color: black;
+    margin-right: 4rem;
+    float: right;
+    
+}
+
+
+.button-2 {
+    background-color: var(--very-dark-green);
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: white solid 2px;
+}
+
+.button-2:hover {
+    background-color: var(--white);
+    color: #000;
+}
+
+
+.Co2 {
+    width: 25rem;
+    height: 24rem;
+    background-repeat: no-repeat;
+    padding: 1rem 5rem 2.6rem 2.4rem;
+    object-fit: fill;
+    float: left;
+}
+
+/* harmful */
+
+.div4 {
+    display: flex;
+    padding: 60px 10px 40px 60px;
+    background-color: #132A13;
+    font-size: 25px;
+    font-weight: 500;
+   
+    
+
+}
+
+.graph {
+    
+    height: 5rem;
+    width: 27rem;
+    background-repeat: no-repeat;
+    object-fit:none;
+    
+    /* margin: 8px 10px 80px 60px; */
+}
+
+.graph2 {
+    float: right;
+    margin: 1rem 2.4rem 3.4rem 2.4rem;
+    width: 47rem;
+}
+
+.trial {
+    width: 25rem;
+    height: 24rem;
+    padding: 1rem 7rem 3rem 2rem;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+   
+    display: flex;
+    background-color: var(--very-dark-green);
+    color: var(--white);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.container__text
+footer h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a:hover{
+    color: var(--light-green)
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: row;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}

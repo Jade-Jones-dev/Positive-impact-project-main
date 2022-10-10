@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+/* These are the colors that are going to be used for the project */
+:root {
+    /* header and nav color */
+    --very-dark-green: #132A13;
+    /* color for the main body of site */
+    --dark-green: #54834e;
+    --green: #4F772D;
+    --light-green: #90A955;
+    --lighter-green: #ECF39E;
+    --white: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Media query sizes
+@media screen and  (max width: 991px);
+@media screen and (max width: 768px);
+
+ */
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin: auto;
+    border: solid 2px var(--very-dark-green);
+
+}
+
+
+.glass>h2 {
+    color: white;
+
+}
+
+.glass>img {
+    height: 314px;
+
+
+}
+
+
+
+
+/* SidePanel>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+.sidepanel {
+    color: white;
+    margin-top: 10%;
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.sidepanel2 {
+    color: white;
+    margin-top: 13%;
+    font-size: 17px;
+    font-weight: 300;
+
+}
+
+.article__summary {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+    font-size: 17px;
+
+}
+
+/* Button >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.learnmore {
+    background-color: #ECF39E;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.learnmore1 {
+    background-color: #ECF39E;
+    margin-top: 45px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+.learnmore2 {
+    background-color: #ECF39E;
+    margin-top: 60px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+}
+
+a:hover .learnmore1 {
+    background-color: white;
+}
+
+/* The Header section-------- */
+header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--very-dark-green);
+
+}
+
+.nav-links {
+    display: flex;
+    justify-content: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-links li {
+    margin: 20px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+}
+
+.nav-links li a:hover {
+    color: var(--lighter-green);
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero_text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    font-size: 70px;
+    font-weight: 800;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 60px 20px;
+
+    background-color: var(--very-dark-green);
+    gap: 40px;
+}
+
+.sub-container {
+
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--very-dark-green);
+    padding-left: 23px;
+}
+
+
+footer {
+    display: flex;
+    background-color: var(--very-dark-green);
+    color: var(--white);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: var(--light-green)
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}

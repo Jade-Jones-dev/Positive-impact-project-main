@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+
+/* These are the colors that are going to be used for the project */
+:root {
+    /* header and nav color */
+    --very-dark-green: #132A13;
+    /* color for the main body of site */
+    --dark-green: #31572C; 
+    --green: #4F772D;
+    --light-green: #90A955;
+    --lighter-green: #ECF39E;
+    --white: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Media query sizes
+@media screen and  (max width: 991px);
+@media screen and (max width: 768px);
+
+*/
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1500px;
+    margin: auto;
+}
+
+/* The Header section-------- */
+header{   
+    display: flex;
+    justify-content: flex-end;
+    background-color: var(--very-dark-green);
+    
+} 
+.nav-links{
+    display: flex;
+    justify-content: inline-block;
+    list-style: none;
+    padding: 0px 20px;
+}
+
+.nav-links li{
+    margin: 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+}
+.nav-links li a:hover{
+    color: var(--lighter-green);    
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    height: 400px;
+    width:100%;
+    object-fit: cover;
+}
+
+.hero_text{
+position: absolute;
+bottom: 40px;
+left: 40px;
+font-size: 70px;
+font-weight: 800;
+color: white;
+}
+
+.container{
+    display: flex;
+    padding: 60px 20px;
+    justify-content: space-between;
+    background-color: var(--very-dark-green);
+}
+
+.container p{
+    font-size: 22px;
+}
+
+.container h4{
+    margin:0;
+}
+
+.container__1{
+    display: flex;
+ 
+}
+
+.container__text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--white);
+    font-size: 30px;
+    width: 50%;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.container__text a{
+    margin: auto;
+}
+
+.container__text h2{
+    padding: 0 30px;
+}
+
+.container__text p{
+    padding:0 20px ;
+}
+
+.container__text1{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-items:center;
+    font-size: 22px;
+    line-height: 0.2;
+    color: var(--white);
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: center;
+    
+}
+
+
+.container__button{
+    background-color: var(--light-green);
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    border-radius: 20px;
+    color: var(--very-dark-green);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    border: white solid 2px;
+}
+
+.container__button:hover{
+    background-color: var(--white);
+}
+
+.container__1 img{
+    width: 50%;
+    height:auto;
+    
+ 
+}
+
+.top-image{
+    margin-top: -4px;
+}
+.container__text2 {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.2;
+    color: var(--very-dark-green);
+    margin: auto;
+    text-align: center;
+
+}
+
+.container__text2 h4{
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 1;
+    margin:15px;
+}
+
+.container__text2 h2{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 0.4;
+    margin:0
+    0 20px 0;
+  
+}
+
+.container__text2 button{
+    justify-content: center;
+    background-color: var(--very-dark-green);
+    color: var(--white);
+    margin:auto;
+    margin-top: 10px;
+    border: 2px solid var(--very-dark-green)
+}
+
+.container__text2 button:hover{
+    background-color: var(--light-green);
+}
+
+.container__text2 p{
+    line-height: 1.6;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.image-section{
+    display: flex;
+}
+
+.image-section img{
+    width:50%;
+}
+
+/* footer */
+footer {
+    display: flex;
+    background-color: var(--very-dark-green);
+    color: var(--white);
+    padding: 20px;
+    justify-content: space-between;
+}
+
+footer h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white);
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a:hover{
+    color: var(--light-green)
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
