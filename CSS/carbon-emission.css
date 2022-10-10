@@ -28,6 +28,8 @@ header {
 
 }
 
+
+
 .nav-links {
     display: flex;
     justify-content: inline-block;
@@ -82,7 +84,8 @@ img{
     margin-top: -550px;
     margin-left: 50px;
     font-weight: 700;
-    text-shadow: 4px 14px 30px #09431b;
+    text-shadow: 4px 14px 30px white;
+    color:white;
 }
 
 
@@ -242,7 +245,7 @@ footer {
    
     display: flex;
     background-color: var(--very-dark-green);
-    color: var(--white);
+    color: white;
     padding: 20px;
     justify-content: space-between;
 }
